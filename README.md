@@ -1,23 +1,35 @@
+# **Booker** : The Community Library Project
 
-**Please note that this README is currently being worked on and is not yet finished.**
----
+## Project 3 : Web Development Immersive, General Assembly ![General Assembly](./src/assets/readme/ga-logo.png "General Assembly logo")
 
-# WDI Project 3 - booker
+Live link: http://www.orjon.com/booker<br>
+
+(Please note that sections of this README are currently being worked on.)
 
 ## Table of Contents
 
-
-| 1. [Overview](#overview)<br>2. [Team](#team) <br> 3. [Technical Acceptance Criteria](#technical-acceptance-criteria) <br> 4. [Project Proposal](#project-proposal) <br> 5. [Technologies](#technologies) <br> 6. [Team Organisation](#team-organisation---loose-agile-framework) <br> 7. [Wins](#wins) <br> 8. [Challenges](#challenges) | 9. [Project Roadmap](#project-roadmap) <br> 10. [Project Deliverables](#project-deliverables---front-end) <br> &nbsp;&nbsp;&nbsp; - [Front End](#project-deliverables---front-end) <br> &nbsp;&nbsp;&nbsp; - [Back End](#project-deliverables---back-end) <br> &nbsp;&nbsp;&nbsp; - [Testing](#testing) <br> 11. [Future Features](#future-features) <br> 12. [Key Learnings](#key-learnings) |
-|:
+1. [Overview](#overview)
+2. [Team](#team)
+3. [Technical Acceptance Criteria](#technical-acceptance-criteria)
+4. [Project Proposal](#project-proposal)
+5. [Technologies](#technologies)
+6. [Team Organisation](#team-organisation---loose-agile-framework)
+7. [Wins](#wins)
+8. [Challenges](#challenges)
+9. [Project Roadmap](#project-roadmap)
+10. [Project Deliverables](#project-deliverables---front-end)
+  - [Front End](#project-deliverables---front-end)
+  - [Back End](#project-deliverables---back-end)
+  - [Testing](#testing)
+11. [Future Features](#future-features)
+12. [Key Learnings](#key-learnings)
 
 
 ## Overview
-
 The third WDI project was to work in a team to deliver a fully-functional user-generated CMS (Content Management System) that includes multiple relationships between database models and consumes at least one public API (Application Programming Interface).
 
 
 ## Team
-
 In alphabetical order:
 
 | Name | GitHub |
@@ -50,7 +62,7 @@ In alphabetical order:
 
 ## Project Proposal:
 
-**App Name:** booker
+**App Name:** Booker
 
 **Value Proposition:** A book sharing community - where users share their book collections by loaning out and borrowing books from other users
 
@@ -62,9 +74,9 @@ In alphabetical order:
 
 - upload my books to the app and create a library of my books so that other users can borrow my books
 
-- see other peoples’ books so that I may borrow books from their libraries
+- see other peoples’ books and allow me to request to borrow books from their libraries
 
-- confirm or reject a request to borrow the books in my library so that I retain control over who can borrow books from me
+- accept or reject a request to borrow the books in my library so that I retain control over who can borrow books from me
 
 - know how far the books that I want to borrow are from me so that I can make decisions on whether I want to travel that far to get the book
 
@@ -72,7 +84,7 @@ In alphabetical order:
 
 - know the contact details of the borrower of my books I want to borrow, so that I can arrange the book pick up
 
-- see the book title, author, reviews and ratings of books so that I can make decisions whether I would like to borrow the book or not
+- see the book title, author, reviews and ratings of books that can help me make decisions whether I would like to borrow the book or not
 
 - easily view the books I have out on loan and the books I am loaning in one place, so that I can manage the books I am reading and keep track that all books that have been borrowed are returned in a timely fashion
 
@@ -126,9 +138,8 @@ View the full list of dependencies and dev dependencies in the [`package.json`](
 
 ## Project Roadmap
 
-... Still to work on + add pictures....
-
-- [x] Front-end user journeys (orjon)
+Work in progress:
+- [x] Front-end user journey (orjon)
 - [ ] Back-end configuration structure
 - [ ] Data schemas  
 - [ ] Product backlog
@@ -140,6 +151,12 @@ Early in the development stage we broke down all the application's functions int
 ![Libraries Logged In](./src/assets/readme/user-flow.png)
 
 This was an iterative, sometimes subjective, but ultimately very constructive process. Sketching out the user flows in this way greatly assisted in structuring the code and filing.
+
+Before signing up, the app allows visitors access to view the contents of the site so that they have a clear understanding of what the site does and what books are available.
+
+![New user journey](./src/assets/readme/user_journey01.gif)
+
+After sign-up & login top navigation menu changes slightly. It is from here that the user can control their own journey through the site. This was intentionally reduced to a minimum number of options to aid clarity and ease-of-use.
 
 
 ## Project Deliverables - Front End
