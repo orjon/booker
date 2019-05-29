@@ -20,9 +20,6 @@ Live link: http://www.orjon.com/booker<br>
 10. [Project Deliverables](#project-deliverables---front-end)
   - [Front End](#project-deliverables---front-end)
   - [Back End](#project-deliverables---back-end)
-  - [Testing](#testing)
-11. [Future Features](#future-features)
-12. [Key Learnings](#key-learnings)
 
 
 ## Overview
@@ -696,14 +693,3 @@ Promise.all(promiseArray)
 ```
 
 ---
-### [Testing](./test)
-
-Ru...............?
-
-
-## Future Features
-
-...To add
-
-## Key Learnings
-...To add
